@@ -42,7 +42,7 @@ const questions = [
         default: "MIT"
     },
     {
-        message: "Who are the contributors or this project?",
+        message: "Who are the contributors for this project?",
         name:"contributing",
         default: "just me"
     },
@@ -52,9 +52,9 @@ const questions = [
         default: "jest"
     },
     {
-        message: "Any questions?",
+        message: "What is your GitHub profile link and e-mail?", 
         name:"questions",
-        default: "why am I so awesome?"
+        default: "https://github.com/user, example@example.com"
     }
 ];
 

@@ -6,6 +6,8 @@
 
   ## Table of Contents
   * [Description](#Description)
+* [Table of Contents](#Table of Contents)
+* [Installation](#Installation)
 * [Usage](#Usage)
 * [License](#License)
 * [Contributing](#Contributing)
@@ -34,5 +36,5 @@
   ```
 
   ## Questions
-  why am I so awesome?
+  https://github.com/karunasato, karuna.sato@gmail.com
   
