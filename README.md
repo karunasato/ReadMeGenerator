@@ -2,75 +2,25 @@
 
 
 
-## Acceptance Criteria
+## Description
 
-```md
-GIVEN a command-line application that accepts user input
-WHEN I am prompted for information about my application repository
-THEN a quality, professional README.md is generated with the title of your project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
-WHEN I enter my project title
-THEN this is displayed as the title of the README
-WHEN I enter a description, installation instructions, usage information, contribution guidelines, and test instructions
-THEN this information is added to the sections of the README entitled Description, Installation, Usage, Contributing, and Tests
-WHEN I choose a license for my application from a list of options
-THEN a badge for that license is added hear the top of the README and a notice is added to the section of the README entitled License that explains which license the application is covered under
-WHEN I enter my GitHub username
-THEN this is added to the section of the README entitled Questions, with a link to my GitHub profile
-WHEN I enter my email address
-THEN this is added to the section of the README entitled Questions, with instructions on how to reach me with additional questions
-WHEN I click on the links in the Table of Contents
-THEN I am taken to the corresponding section of the README
-```
+index.js file has the array of questions prompted to the user that will create the readMe file, with headers including title, description, table of contents, installation, usage, license, contributing, tests, and questions.
 
-## Minimum Application Requirements
+generateMarkdown.js has the formatting of how the readMe file that is produced with the user's inputs to the prompts they answer.
 
-* Meets [Submission Requirements](#submission-requirements) in the following section.
+Once the user runs index.js file with node in the terminal, it will start asking the user the array of questions in order that will be inputed into their final readMe file.
 
-* Functional application.
+<img src = "Assets\node.PNG">
 
-* GitHub repository with a unique name and a README describing project.
+Once the user finishes answering all the prompts in the terminal a markdown file with the title of the project will be generated. 
 
-* The generated README includes the following sections: 
+<img src = "Assets\Sample of generated readme file.PNG">
 
-  * Title
-  * Description
-  * Table of Contents
-  * Installation
-  * Usage
-  * License
-  * Contributing
-  * Tests
-  * Questions
+Then the user may preview the readMe file to see how it looks when it is published to their GitHub. Also, when the user clicks on the links in the table of contents then they are taken to the corresponding section on their reeadMe.
 
-* The generated README includes 1 badge that's specific to the repository.
+<img src = Assets\preview.PNG>
 
 
-## Submission Requirements
+Link to walkthrough video demo: https://drive.google.com/file/d/1Ei0QzNdimHh6hdQ50vggYnxhXTmkDvhS/view?usp=sharing
 
-Because this is a CLI App, there will be no need to deploy it to Heroku. This time, though, you need to include a video showing us that you got the app working with no bugs. You should include a link to the video in your application's `README.md` file.
-
-* Create a `.gitignore` file and include `node_modules/` and `.DS_Store/`.
-
-* `node_modules` is not tracked and uploaded to GitHub. (Hint: It is easy if you create your `.gitignore` file before installing dependencies with npm.)
-
-* Repo **MUST** include `package.json` with required dependencies. (Hint: Run `npm init` when you first setup the project before installing any dependencies.)
-
-* Include a video of the typical user flow through your application. This includes views of the prompts and the responses after their selection.
-
-* Include any other screenshots you deem necessary to help someone who has never been introduced to your application understand the purpose and function of it. This is how you will communicate to potential employers/other developers in the future what you built and why, and to show how it works.
-
-* Because screenshots (and well-written READMEs) are extremely important in the context of GitHub, this will be part of the grading.
-
-
-
-## Submission on BCS
-
-You are required to submit the following:
-
-* A walkthrough video demonstrating the functionality of the application. 
-
-* A sample README.md file for a project repository generated using your application.
-
-* The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
-
-Link to walkthrough video demo: https://drive.google.com/file/d/1Ei0QzNdimHh6hdQ50vggYnxhXTmkDvhS/view?usp=sharing 
+Link to URL of GitHub repository:https://github.com/karunasato/ReadMeGenerator.git 
